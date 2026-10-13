@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - XTEP VIỆT NAM</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+    <div class="khung-trang">
+        <header class="dau-trang">
+            <a href="index.html" class="logo-thuong-hieu">🏃‍♂️ XTEP VIỆT NAM</a>
+            <nav>
+                <ul class="menu-dieu-huong">
+                    <li class="muc-menu"><a href="index.html">Trang Chủ</a></li>
+                    <li class="muc-menu"><a href="sanpham.html">Sản Phẩm</a></li>
+                    <li class="muc-menu"><a href="trang_bootstrap.html">thông tin</a></li>
+                    <li class="muc-menu"><a href="dangky_form.html" class="active">Đăng Ký</a></li>
+                    <li class="muc-menu"><a href="gioithieu_media.html">Giới Thiệu</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="khung-bieu-mau">
+            <h2 style="text-align: center; color: #0b74e5; margin-bottom: 20px;">ĐĂNG KÝ THÀNH VIÊN CLB XRC & ĐẶT MUA HÀNG</h2>
+            <form action="" method="post">
+                <table border ="1" class="bang-du-lieu">
+                    <tr>
+                        <th colspan="2">FORM ĐĂNG KÝ MUA HÀNG VÀ TÍCH ĐIỂM THÀNH VIÊN</th>
+                    </tr>
+                    <tr>
+                        <td width="30%"><b>Họ và Tên (*):</b></td>
+                        <td><input type="text" name="hoten" class="o-nhap-lieu" placeholder="Nhập họ tên người mua" required></td>
+                    </tr>
+                    <tr>
+                        <td><b>Số Điện Thoại (*):</b></td>
+                        <td><input type="text" name="sdt" class="o-nhap-lieu" placeholder="Nhập số điện thoại"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Mật Khẩu Mới (*):</b></td>
+                        <td><input type="password" name="matkhau" class="o-nhap-lieu"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Giới Tính:</b></td>
+                        <td>
+                            <input type="radio" name="gioitinh" value="Nam" checked> Nam
+                            <input type="radio" name="gioitinh" value="Nữ" style="margin-left: 15px;"> Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Dòng Giày Quan Tâm:</b></td>
+                        <td>
+                            <input type="checkbox" name="donggiay" value="160X"> Giày 160X
+                            <input type="checkbox" name="donggiay" value="Training" style="margin-left: 10px;"> Giày Tập Luyện
+                            <input type="checkbox" name="donggiay" value="ThoiTrang" style="margin-left: 10px;"> Giày Thời Trang
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Size Giày Cần Chọn:</b></td>
+                        <td>
+                            <select name="sizegiay" style="padding: 6px;">
+                                <option value="39">Size 39 EU</option>
+                                <option value="40" selected>Size 40 EU</option>
+                                <option value="41">Size 41 EU</option>
+                                <option value="42">Size 42 EU</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Địa Chỉ Nhận Hàng Cụ Thể:</b></td>
+                        <td><textarea name="diachi" rows="3" cols="35" placeholder="Nhập địa chỉ nhà cụ thể..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" style="background-color: #f8f9fa;">
+                            <input type="submit" value="XÁC NHẬN ĐẶT HÀNG" class="nut-xac-nhan">
+                            <input type="reset" value="NHẬP LẠI" class="nut-nhap-lai" style="margin-left: 10px;">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+        <footer class="chan-trang">
+            <div class="thong-tin-chan-trang">
+                <div>Địa chỉ cửa hàng: Phạm Văn Đồng, Cầu Giấy, Hà Nội</div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
